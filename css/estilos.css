@@ -34,10 +34,7 @@ header .menu a{
     border-bottom: 2px solid transparent;
     font-size: 1em;
 }
-header .menu a:hover{
-    border-bottom: 2px solid #fff;
-
-}
+header .menu a:hover{ border-bottom: 2px solid #fff; }
 header .contenedor-texto{
     display: flex;
     margin: 190px 0;
@@ -67,15 +64,9 @@ header .contenedor-texto .texto .profecion{
     line-height: 25px;
 }
 /*------MAIN------*/
-.main .contenedor{
-    overflow: visible;
-}
-.main .acerca-de{
-    text-align: center;
-}
-.main .acerca-de .foto{
-    margin-top: -60px;
-}
+.main .contenedor{ overflow: visible; }
+.main .acerca-de{ text-align: center; }
+.main .acerca-de .foto{ margin-top: -60px; }
 .main .acerca-de .foto img{
     vertical-align: top;
     border-radius: 50%;
@@ -105,9 +96,7 @@ header .contenedor-texto .texto .profecion{
     background: #f2f2f2;
     padding: 60px 0;
 }
-.main .trabajos .contenedor{
-    overflow: hidden;
-}
+.main .trabajos .contenedor{ overflow: hidden; }
 .main .trabajos .titulo{
     font-size: 34px;
     line-height: 34px;
@@ -148,9 +137,7 @@ header .contenedor-texto .texto .profecion{
     color: #636363;
 }
 /*-----FOOTER-----*/
-footer .contacto{
-    padding: 60px 0;
-}
+footer .contacto{ padding: 60px 0; }
 footer .contacto .titulo{
     font-size: 34px;
     line-height: 34px;
@@ -201,6 +188,27 @@ footer .contacto .formulario .boton{
     padding: 15px 40px;
     cursor: pointer;
 }
-footer .contacto .formulario .boton:hover{
-    background: #387bea;
+footer .contacto .formulario .boton:hover{ background: #387bea; }
+footer .redes-sociales{
+    background: #1e2b38;
+    padding: 60px 0;
 }
+footer .redes-sociales .contenedor{
+    display: flex;
+    justify-content: center;
+}
+footer .redes-sociales a{
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0 20px;
+}
+footer .redes-sociales .twitter:hover{ background: #1da1f2; }
+footer .redes-sociales .facebook:hover{ background: #3b5998; }
+footer .redes-sociales .youtube:hover{ background: #cd201f; }
+footer .redes-sociales .github:hover{ background: #666666; }
+footer .redes-sociales .instagram:hover{ background: #3f729b; }
