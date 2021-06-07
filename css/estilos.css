@@ -1,0 +1,68 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+/*------HEADER------*/
+header{
+    background: url('../img/bg.jpg') #43a3d6;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px;
+}
+header .menu{
+    margin: 40px 0;
+    text-align: right;
+}
+header .menu a{
+    margin: 0 20px;
+    color: #fff;
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+}
+header .menu a:hover{
+    border-bottom: 2px solid #fff;
+
+}
+header .contenedor-texto{
+    display: flex;
+    margin: 190px 0;
+    justify-content: center;
+    align-content: center;
+}
+header .contenedor-texto .texto{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 60px;
+}
+header .contenedor-texto .texto h1,
+header .contenedor-texto .texto h2{
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+header .contenedor-texto .texto .nombre{
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+}
+header .contenedor-texto .texto .profecion{
+    font-size: 25px;
+    line-height: 25px;
+}
