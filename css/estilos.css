@@ -66,3 +66,38 @@ header .contenedor-texto .texto .profecion{
     font-size: 25px;
     line-height: 25px;
 }
+/*------MAIN------*/
+.main .contenedor{
+    overflow: visible;
+}
+.main .acerca-de{
+    text-align: center;
+}
+.main .acerca-de .foto{
+    margin-top: -60px;
+}
+.main .acerca-de .foto img{
+    vertical-align: top;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}
+.main .acerca-de .texto{
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto 60px auto;
+}
+.main .acerca-de .texto .titulo{
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #dd820d;
+    text-align: center;
+}
+.main .acerca-de .texto .bold{
+    color: #3895ea;
+    text-decoration: underline;
+}
