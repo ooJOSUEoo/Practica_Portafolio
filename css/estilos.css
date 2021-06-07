@@ -101,3 +101,49 @@ header .contenedor-texto .texto .profecion{
     color: #3895ea;
     text-decoration: underline;
 }
+.main .trabajos{
+    background: #f2f2f2;
+    padding: 60px 0;
+}
+.main .trabajos .contenedor{
+    overflow: hidden;
+}
+.main .trabajos .titulo{
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #323068;
+    text-align: center;
+}
+.main .trabajos .contenedor-trabajos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main .trabajos .contenedor-trabajos .trabajo{
+    width: 23%;
+    margin-bottom: 40px;
+}
+.main .trabajos .contenedor-trabajos .trabajo .thumb{
+    width: 100%;
+    margin-bottom: 10px; 
+}
+.main .trabajos .contenedor-trabajos .trabajo .thumb img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 3px;
+}
+.main .trabajos .contenedor-trabajos .trabajo .descripcion{
+    text-align: center;
+}
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre{
+    font-weight: 700;
+    color: #3895ea;
+    margin-bottom: 10px;
+}
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria{
+    font-size: 14px;
+    color: #636363;
+}
